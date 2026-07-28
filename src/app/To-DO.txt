@@ -1,0 +1,9 @@
+Impact page
+
+description: "Quality food rescued from going to waste.",
+description: "Money saved by students and local customers.",
+description: "Bakeries, cafés and restaurants onboard.",
+
+<p className="mt-3 text-sm leading-6 text-green-100">
+                  {description}
+                </p>

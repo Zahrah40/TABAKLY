@@ -1,23 +1,47 @@
+"use client";
+
+import Image from "next/image";
+import { useEffect, useState } from "react";
+
 export default function Hero() {
+  // 3. Array of images
+  const images = [
+    "/hero-images/hero-image-1.jpg",
+    "/hero-images/hero-image-3.jpg",
+  ];
+
+  // 4. Current image
+  const [currentImage, setCurrentImage] = useState(0);
+
+  // 5. Automatically change images
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % images.length);
+    }, 3000);
+
+
+      return () => clearInterval(interval);
+    }, []);
+
   return (
-    <section className="bg-white">
+    <section id= "about" className="scroll-mt-28 bg-white">
 
       <div className="max-w-7xl mx-auto px-8 py-24 grid lg:grid-cols-2 gap-16 items-center">
 
-        {/* Left */}
+        {/* Left-Column */}
 
         <div>
 
           <span className="bg-green-100 text-green-700 px-4 py-2 rounded-full font-medium">
-            ♻️ Fighting Food Waste Together
+            ♻️ Combating Food Waste Together
           </span>
 
           <h1 className="text-6xl font-bold mt-8 leading-tight text-black">
             Save Good Food.
             <br />
-            Save Money.
+            <span className="text-green-900">Save Money.</span>
             <br />
-            Reduce Waste.
+            <span className="text-orange-500">Reduce Waste.</span>
           </h1>
 
           <p className="text-gray-600 text-xl mt-8 leading-8">
@@ -29,36 +53,35 @@ export default function Hero() {
           <div className="flex gap-4 mt-10">
 
             <a
-              href="YOUR_CUSTOMER_SURVEY_LINK"
+              href="/signin/customer"
               target="_blank"
-              className="bg-green-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-green-700 transition"
+              className="bg-green-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-green-700 transition"
             >
-              I'm a Customer
+              Join as a Customer
             </a>
 
             <a
-              href="MERCHANT_SURVEY_LINK"
+              href="/signin/merchant"
               target="_blank"
-              className="text-black border border-gray-300 px-8 py-4 rounded-full font-semibold hover:bg-grey-900 transition"
+              className="text-black border border-gray-300 px-8 py-4 rounded-full font-semibold hover:orange-500 transition"
             >
-              I'm a Merchant
+              Partner as a Merchant
             </a>
 
           </div>
 
         </div>
 
-        {/* Right */}
+        {/* Right-Column */}
 
-        <div>
-
-          <img
-            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=900"
-            alt="Bread"
-            className="rounded-3xl shadow-2xl"
-          />
-
-        </div>
+        <Image
+          src={images[currentImage]}
+          alt="Tabakly Hero"
+          width={700}
+          height={700}
+          className="rounded-3xl object-cover shadow-2xl transition-opacity duration-1000"
+          priority
+        />
 
       </div>
 

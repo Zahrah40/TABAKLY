@@ -1,44 +1,56 @@
+"use client";
+
 import Link from "next/link";
+
+const navLinks = [
+  { name: "About", href: "#about" },
+  { name: "Tabakly Model", href: "#model" },
+  { name: "Impact", href: "#impact" },
+  { name: "Benefits", href: "#benefits" },
+  { name: "Contact Us", href: "#contact" },
+];
 
 export default function Navbar() {
   return (
-    <nav className="w-full bg-white border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between">
+    <header className="fixed top-5 left-0 right-0 z-50 flex justify-center px-4">
+      <nav className="flex w-full max-w-7xl items-center justify-between rounded-full border border-white/30 bg-white/80 px-8 py-4 shadow-lg backdrop-blur-xl">
 
-        {/* Logo */}
-        <Link href="/" className="text-3xl font-bold text-green-900">
-          Tabakly
-        </Link>
+        {/* Logo - could be later changed to an image*/}
+        <a
+          href="#hero"
+          className="flex items-center gap-3"
+        >
+          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-green-700 text-lg font-bold text-white">
+            T
+          </div>
 
-        {/* Navigation */}
-        <div className="hidden md:flex items-center gap-8">
-          <Link href="#" className="text-gray-600 hover:text-green-600">
-            About
-          </Link>
+          <span className="text-2xl font-bold text-gray-900">
+            Tabakly
+          </span>
+        </a>
 
-          <Link href="#" className="text-gray-600 hover:text-green-600">
-            How it Works
-          </Link>
-
-          <Link href="#" className="text-gray-600 hover:text-green-600">
-            Contact
-          </Link>
+        {/* Navigation Links */}
+        <div className="hidden items-center gap-8 lg:flex">
+          {navLinks.map((link) => (
+            <Link
+              key={link.name}
+              href={link.href}
+              className="font-medium text-gray-700 transition duration-200 hover:text-orange-500 hover:scale-105"
+            >
+              {link.name}
+            </Link>
+          ))}
         </div>
 
-        {/* Buttons */}
-        <div className="flex items-center gap-4">
+        {/* CTA Button */}
+        <a
+          href="#surveys"
+          className="rounded-full bg-green-900 px-6 py-3 font-medium text-white transition duration-300 hover:bg-green-700 hover:shadow-lg"
+        >
+          Take Survey
+        </a>
 
-          <button className="text-gray-700 font-medium hover:text-green-600">
-            Login
-          </button>
-
-          <button className="bg-green-600 hover:bg-green-700 transition text-white px-6 py-3 rounded-full font-semibold">
-            Join Waitlist
-          </button>
-
-        </div>
-
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 }
