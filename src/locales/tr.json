@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "Tabakly | İyi gıdayı koru, tasarruf et",
+    "description": "Tabakly, Ankara'daki gıda işletmelerinin uygun gıda fazlasını yakındaki tüketicilere daha erişilebilir fiyatlarla sunmasına yardımcı olacak bir platform geliştiriyor."
+  },
+  "header": {
+    "navigationLabel": "Ana menü",
+    "homeLabel": "Tabakly ana sayfa",
+    "surveyCta": "Ankete Katıl",
+    "menuOpenLabel": "Menüyü aç",
+    "menuCloseLabel": "Menüyü kapat",
+    "languageGroupLabel": "Dil",
+    "languageEnglishLabel": "İngilizce görüntüle",
+    "languageTurkishLabel": "Türkçe görüntüle",
+    "nav": {
+      "about": "Hakkımızda",
+      "model": "Tabakly Modeli",
+      "benefits": "Faydalar",
+      "contact": "Bize Ulaşın"
+    }
+  },
+  "hero": {
+    "titleLineOne": "İyi Gıdayı Koru.",
+    "titleLineTwo": "Tasarruf Et.",
+    "titleLineThree": "İsrafı Azalt.",
+    "description": "Tabakly; fırınların, kafelerin, pastanelerin ve restoranların uygun gıda fazlasını öğrencilere ve yakındaki müşterilere daha erişilebilir fiyatlarla sunmasına yardımcı olacak bir platform geliştiriyor.",
+    "consumerCta": "Gıda Satın Alıyorum",
+    "businessCta": "Bir Gıda İşletmesi İşletiyorum",
+    "imageAlt": "Çeşitli ekmeklerden oluşan bir paket hazırlayan fırın çalışanı"
+  },
+  "problem": {
+    "eyebrow": "Neden Tabakly",
+    "title": "Fazla miktarda iyi gıda satılamadan kalıyor.",
+    "description": "Gün sonunda gıda işletmelerinin zamanında satmakta zorlandığı uygun ürünler kalabilir. Aynı zamanda birçok kişi kaliteli gıdaya daha uygun fiyatlarla ulaşmanın yollarını arıyor.",
+    "items": [
+      {
+        "title": "Kısa satış süresi",
+        "description": "Taze ürünlerin başka bir müşteriye ulaşması için sınırlı bir süre olabilir."
+      },
+      {
+        "title": "Günlük bütçeler",
+        "description": "Öğrenciler ve yakındaki tüketiciler bütçelerine uyan kullanışlı seçenekler istiyor."
+      },
+      {
+        "title": "Eksik bağlantı",
+        "description": "İşletmeler ile tüketicilerin doğru zamanda birbirini bulabileceği basit ve açık bir yola ihtiyacı var."
+      }
+    ]
+  },
+  "model": {
+    "eyebrow": "Tabakly Modeli",
+    "title": "Gıdayı kurtarmak kolay olabilir.",
+    "description": "Tabakly, uygun gıda fazlasını işletmelerin daha kolay sunabileceği ve yakındaki müşterilerin daha kolay keşfedebileceği şekilde tasarlanıyor.",
+    "steps": [
+      {
+        "title": "İşletmeler Gıda Fazlasını Paylaşır",
+        "description": "Katılımcı gıda işletmeleri uygun ürünleri açık fiyat, teslim alma saati ve müşterilerin ihtiyaç duyduğu bilgilerle listeleyebilir."
+      },
+      {
+        "title": "Müşteriler Yakındaki Teklifleri Keşfeder",
+        "description": "Müşteriler yerel fırın, kafe, pastane, restoran ve benzeri işletmelerin uygun fiyatlı seçeneklerine göz atabilir."
+      },
+      {
+        "title": "Rezerve Et, Teslim Al ve İsrafı Azalt",
+        "description": "Müşteriler bir teklif seçerek belirtilen süre içinde ürünü işletmeden teslim alabilir."
+      }
+    ],
+    "stageNote": "Tabakly şu anda Ankara'da geliştiriliyor ve doğrulanıyor. Nihai işleyiş, kullanıma sunulmadan önce değişebilir."
+  },
+  "benefits": {
+    "eyebrow": "Faydalar",
+    "title": "İşletmeler ve tüketiciler için değer.",
+    "description": "Önerilen platform, uygun gıda fazlası etrafında pratik bir bağlantı kurmak üzere tasarlanıyor.",
+    "businesses": {
+      "label": "Gıda işletmeleri için",
+      "title": "Daha Fazlasını Değerlendir, Daha Az İsraf Et",
+      "points": [
+        "Önlenebilir gıda israfını ve bozulmayı azaltın",
+        "Uygun gıda fazlasından değer elde edin",
+        "Öğrencilere ve yakındaki müşterilere ulaşın",
+        "Gün sonu tekliflerini daha kolay yönetin"
+      ]
+    },
+    "consumers": {
+      "label": "Tüketiciler için",
+      "title": "Daha Fazla Tasarruf Et, Daha Az İsraf Et",
+      "points": [
+        "Kaliteli gıdaya daha erişilebilir fiyatlarla ulaşın",
+        "Yakındaki fırın, kafe ve diğer gıda işletmelerini keşfedin",
+        "Açık teslim alma bilgileri olan teklifleri seçin",
+        "Yerel işletmeleri ve daha az israfı destekleyen alışkanlıkları destekleyin"
+      ]
+    }
+  },
+  "survey": {
+    "eyebrow": "Tabakly'yi şekillendirin",
+    "title": "Kısa bir ankete katılın.",
+    "description": "Anketler, Tabakly kullanıma sunulmadan önce çözümü doğrulamamıza ve gıda işletmeleri ile tüketicilerin ihtiyaçlarını anlamamıza yardımcı olur.",
+    "businesses": {
+      "label": "Gıda işletmeleri için",
+      "title": "Gıda İşletmesi Anketi",
+      "description": "Gıda fazlasını şu anda nasıl yönettiğinizi ve Tabakly'yi günlük işleyişinizde neyin kullanışlı kılacağını paylaşın.",
+      "cta": "Gıda İşletmesi Anketine Katıl"
+    },
+    "consumers": {
+      "label": "Tüketiciler için",
+      "title": "Tüketici Anketi",
+      "description": "Yakındaki işletmelerin uygun fiyatlı gıda fazlası tekliflerini seçerken sizin için nelerin önemli olduğunu anlatın.",
+      "cta": "Tüketici Anketine Katıl"
+    },
+    "newTabNotice": "Yeni sekmede açılır"
+  },
+  "privacy": {
+    "eyebrow": "Gizlilik ve KVKK",
+    "title": "Bilgi paylaşmadan önce açık bilgilendirme.",
+    "description": "Harici bir anket yanıt toplamadan önce Tabakly; anket sağlayıcısı, amaç, veri kullanımı, saklama ve katılımcı haklarıyla ilgili bilgileri sunacaktır.",
+    "statusLabel": "Mevcut yaklaşım",
+    "status": "Bu internet sitesi anket yanıtlarını doğrudan toplamaz. Onaylanmış anket bağlantıları ve gizlilik bildirimleri anket kartları üzerinden sunulacaktır."
+  },
+  "footer": {
+    "description": "Tabakly, gıda işletmeleri ile yakındaki tüketicilerin uygun gıda fazlasını daha iyi değerlendirebilmesi için daha basit bir yol geliştiriyor.",
+    "stage": "İyi gıdayı korumak için tasarlanıyor.",
+    "navigationTitle": "Keşfedin",
+    "contactTitle": "Bize Ulaşın",
+    "contactDescription": "Sorularınız, iş birliği önerileriniz veya geri bildiriminiz için Tabakly ekibiyle iletişime geçin.",
+    "contactEmail": "tabakly@gmail.com",
+    "contactEmailLabel": "Tabakly'ye e-posta gönder",
+    "copyright": "© {year} Tabakly. Tüm hakları saklıdır.",
+    "nav": {
+      "about": "Hakkımızda",
+      "model": "Tabakly Modeli",
+      "benefits": "Faydalar",
+      "survey": "Ankete Katıl",
+      "privacy": "Gizlilik ve KVKK"
+    }
+  },
+  "error": {
+    "eyebrow": "Bir sorun oluştu",
+    "title": "Bu sayfayı yükleyemedik.",
+    "description": "Lütfen tekrar deneyin. Sorun devam ederse Tabakly ana sayfasına dönün.",
+    "retry": "Tekrar dene",
+    "home": "Ana sayfaya dön"
+  },
+  "notFound": {
+    "eyebrow": "Sayfa bulunamadı",
+    "title": "Bu sayfa mevcut değil.",
+    "description": "İyi gıdayı korumak, tasarruf etmek ve israfı azaltmak için neler yaptığımızı öğrenmek üzere Tabakly ana sayfasına dönün.",
+    "home": "Ana sayfaya dön"
+  }
+}

@@ -1,19 +1,28 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Footer from "../components/Footer";
-import TabaklyModel from "../components/TabaklyModel";
-import Impact from "../components/Impact";
-import Benefits from "@/components/Benefits";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Benefits from "@/components/sections/Benefits";
+import Hero from "@/components/sections/Hero";
+import PrivacyNotice from "@/components/sections/PrivacyNotice";
+import Problem from "@/components/sections/Problem";
+import SurveySection from "@/components/sections/SurveySection";
+import TabaklyModel from "@/components/sections/TabaklyModel";
+import { getRequestDictionary } from "@/lib/i18n.server";
 
-export default function Home() {
+export default async function Home() {
+  const { dictionary, locale } = await getRequestDictionary();
+
   return (
-    <main className="bg-white">
-      <Navbar />
-      <Hero />
-      <TabaklyModel />
-      <Impact />
-      <Benefits />
-      <Footer />
-    </main>
+    <>
+      <Header content={dictionary.header} locale={locale} />
+      <main id="main-content" className="bg-brand-white">
+        <Hero content={dictionary.hero} />
+        <Problem content={dictionary.problem} />
+        <TabaklyModel content={dictionary.model} />
+        <Benefits content={dictionary.benefits} />
+        <SurveySection content={dictionary.survey} />
+        <PrivacyNotice content={dictionary.privacy} />
+      </main>
+      <Footer content={dictionary.footer} />
+    </>
   );
 }

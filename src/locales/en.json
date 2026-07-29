@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "Tabakly | Save good food, save money",
+    "description": "Tabakly is developing a platform to help Ankara food businesses offer suitable surplus food to nearby consumers at more affordable prices."
+  },
+  "header": {
+    "navigationLabel": "Primary navigation",
+    "homeLabel": "Tabakly home",
+    "surveyCta": "Take Survey",
+    "menuOpenLabel": "Open navigation menu",
+    "menuCloseLabel": "Close navigation menu",
+    "languageGroupLabel": "Language",
+    "languageEnglishLabel": "View in English",
+    "languageTurkishLabel": "View in Turkish",
+    "nav": {
+      "about": "About",
+      "model": "Tabakly Model",
+      "benefits": "Benefits",
+      "contact": "Contact Us"
+    }
+  },
+  "hero": {
+    "titleLineOne": "Save Good Food.",
+    "titleLineTwo": "Save Money.",
+    "titleLineThree": "Reduce Waste.",
+    "description": "Tabakly is developing a platform to help bakeries, cafés, pastry shops, and restaurants make suitable surplus food available to students and nearby customers at more affordable prices.",
+    "consumerCta": "I Buy Food",
+    "businessCta": "I Run a Food Business",
+    "imageAlt": "A bakery worker preparing a bag of assorted bread"
+  },
+  "problem": {
+    "eyebrow": "Why Tabakly",
+    "title": "Too much good food is left unsold.",
+    "description": "At the end of the day, food businesses can be left with suitable products that are difficult to sell in time, while many people are looking for more affordable ways to enjoy quality food.",
+    "items": [
+      {
+        "title": "Short selling windows",
+        "description": "Fresh products may have only a limited time to find another customer."
+      },
+      {
+        "title": "Everyday affordability",
+        "description": "Students and nearby consumers want useful options that fit their budgets."
+      },
+      {
+        "title": "A missing connection",
+        "description": "Businesses and consumers need a simple, clear way to find one another at the right time."
+      }
+    ]
+  },
+  "model": {
+    "eyebrow": "The Tabakly Model",
+    "title": "Saving food can be simple.",
+    "description": "Tabakly is being designed to make suitable surplus food easier for businesses to offer and easier for nearby customers to discover.",
+    "steps": [
+      {
+        "title": "Businesses Share Surplus Food",
+        "description": "Participating food businesses could list suitable products with a clear price, collection time, and the information customers need."
+      },
+      {
+        "title": "Customers Discover Nearby Offers",
+        "description": "Customers could browse affordable options from local bakeries, cafés, pastry shops, restaurants, and similar businesses."
+      },
+      {
+        "title": "Reserve, Pick Up & Reduce Waste",
+        "description": "Customers could choose an offer and collect it from the business within the stated pickup window."
+      }
+    ],
+    "stageNote": "Tabakly is currently being developed and validated in Ankara. The final workflow may evolve before launch."
+  },
+  "benefits": {
+    "eyebrow": "Benefits",
+    "title": "Value for businesses and consumers.",
+    "description": "The proposed platform is designed to create a practical connection around suitable surplus food.",
+    "businesses": {
+      "label": "For food businesses",
+      "title": "Recover More, Waste Less",
+      "points": [
+        "Reduce avoidable food waste and spoilage",
+        "Recover value from eligible surplus products",
+        "Reach students and nearby customers",
+        "Make end-of-day offers easier to manage"
+      ]
+    },
+    "consumers": {
+      "label": "For consumers",
+      "title": "Save More, Waste Less",
+      "points": [
+        "Access quality food at more affordable prices",
+        "Discover nearby bakeries, cafés, and other food businesses",
+        "Choose offers with clear pickup information",
+        "Support local businesses and lower-waste habits"
+      ]
+    }
+  },
+  "survey": {
+    "eyebrow": "Help shape Tabakly",
+    "title": "Take a short survey.",
+    "description": "The surveys help us validate the solution and understand what food businesses and consumers need before Tabakly launches.",
+    "businesses": {
+      "label": "For food businesses",
+      "title": "Food Business Survey",
+      "description": "Share how you currently manage surplus food and what would make Tabakly useful in your daily operation.",
+      "cta": "Take the Food Business Survey"
+    },
+    "consumers": {
+      "label": "For consumers",
+      "title": "Consumer Survey",
+      "description": "Tell us what matters when choosing affordable surplus-food offers from nearby businesses.",
+      "cta": "Take the Consumer Survey"
+    },
+    "newTabNotice": "Opens in a new tab"
+  },
+  "privacy": {
+    "eyebrow": "Privacy and KVKK",
+    "title": "Clear information before you share anything.",
+    "description": "Before an external survey collects responses, Tabakly will provide the relevant information about the survey provider, purpose, data use, retention, and participant rights.",
+    "statusLabel": "Current approach",
+    "status": "This website does not collect survey answers directly. Approved survey links and their privacy notices will be provided through the survey cards."
+  },
+  "footer": {
+    "description": "Tabakly is developing a simpler way for food businesses and nearby consumers to make better use of suitable surplus food.",
+    "stage": "Designed to save good food.",
+    "navigationTitle": "Explore",
+    "contactTitle": "Contact Us",
+    "contactDescription": "Questions, partnerships, or feedback? Get in touch with the Tabakly team.",
+    "contactEmail": "tabakly@gmail.com",
+    "contactEmailLabel": "Email Tabakly",
+    "copyright": "© {year} Tabakly. All rights reserved.",
+    "nav": {
+      "about": "About",
+      "model": "Tabakly Model",
+      "benefits": "Benefits",
+      "survey": "Take Survey",
+      "privacy": "Privacy and KVKK"
+    }
+  },
+  "error": {
+    "eyebrow": "Something went wrong",
+    "title": "We could not load this page.",
+    "description": "Please try again. If the problem continues, return to the Tabakly home page.",
+    "retry": "Try again",
+    "home": "Return home"
+  },
+  "notFound": {
+    "eyebrow": "Page not found",
+    "title": "This page does not exist.",
+    "description": "Return to the Tabakly home page to learn how we are working to save good food, save money, and reduce waste.",
+    "home": "Return home"
+  }
+}
